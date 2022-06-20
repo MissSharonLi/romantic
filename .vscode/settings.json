@@ -1,0 +1,16 @@
+{
+  "eslint.workingDirectories": ["/"],
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/dist": true,
+    "**/node_modules": true
+  },
+  "vetur.validation.script": false
+}

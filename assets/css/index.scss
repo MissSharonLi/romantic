@@ -1,0 +1,11 @@
+@import './vant-theme.scss';
+@mixin flex($align: center, $justity: center, $wrap: '') {
+  display: flex;
+  align-items: $align;
+  justify-content: $justity;
+  flex-wrap: $wrap;
+}
+@function pxTorpx($px) {
+  //$px为需要转换的字号
+  @return $px * 2rpx;
+}
